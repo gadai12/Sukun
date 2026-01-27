@@ -12,6 +12,7 @@
 /storage/*.key
 /storage/pail
 /vendor
+public/vendor
 .composer.lock
 .env
 .env.backup
@@ -27,6 +28,12 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
+# Laravel cached files
+/bootstrap/cache/*.php
+
+# Ignore IDE helper files
+/_ide_helper.php
+/_ide_helper_models.php
 
 # IDEs and Editors
 /.fleet
