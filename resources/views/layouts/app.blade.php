@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Davat Beverages – Tamanna Sales</title>
-    <link rel="stylesheet" href="{{ asset('icon/fontawesome/css/all.min.css') }}">
+    <link rel="stylesheet" href="{{ asset('icons/fontawesome/css/all.min.css') }}">
 
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
