@@ -75,6 +75,99 @@
         </div>
     </div>
 </section>
+<!-- ================= OWNER / DEALERSHIP ================= -->
+<section class="py-20 bg-white fade-in">
+    <div class="max-w-7xl mx-auto px-6">
+
+        <!-- Section Title -->
+        <div class="text-center mb-4">
+            <h2 class="text-3xl md:text-4xl font-bold text-blue-800">
+                Meet Your Local Distributor
+            </h2>
+            <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+                Tamanna Sales is an authorized Davat Beverages distributor, proudly serving
+                retailers with trust, transparency, and timely supply.
+            </p>
+        </div>
+
+        <!-- Owner Cards -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+
+            <!-- OWNER CARD -->
+            <div
+                class="bg-gray-50 rounded-xl p-8 text-center border border-transparent
+                       hover:border-blue-600 hover:shadow-2xl hover:-translate-y-1 transition">
+
+                <img
+                    src="images/owner-1.jpeg"
+                    alt="Owner"
+                    class="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-blue-100 shadow">
+
+                <h3 class="text-xl font-bold text-gray-800">
+                    Mr. Gaffar Ghoghari
+                </h3>
+
+                <p class="text-sm text-blue-600 font-semibold mt-1">
+                    Proprietor – Tamanna Sales
+                </p>
+
+                <p class="text-gray-600 text-sm mt-4 leading-relaxed">
+                    With 10 years of experience in beverage distribution, ensuring
+                    reliable stock and long-term retailer relationships.
+                </p>
+            </div>
+
+           <div
+                class="bg-gray-50 rounded-xl p-8 text-center border border-transparent
+                       hover:border-blue-600 hover:shadow-2xl hover:-translate-y-1 transition">
+
+                <img
+                    src="images/owner-1.jpeg"
+                    alt="Owner"
+                    class="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-blue-100 shadow-md">
+
+                <h3 class="text-xl font-bold text-gray-800">
+                    Mr. [Owner Name]
+                </h3>
+
+                <p class="text-sm text-blue-600 font-semibold mt-1">
+                    Proprietor – Tamanna Sales
+                </p>
+
+                <p class="text-gray-600 text-sm mt-4 leading-relaxed">
+                    With 10 years of experience in beverage distribution, ensuring
+                    reliable stock and long-term retailer relationships.
+                </p>
+            </div>
+
+            <!-- CONTACT CARD -->
+          <div
+                class="bg-gray-50 rounded-xl p-8 text-center border border-transparent
+                       hover:border-blue-600 hover:shadow-2xl hover:-translate-y-1 transition">
+
+                <img
+                    src="images/owner-1.jpeg"
+                    alt="Owner"
+                    class="w-32 h-32 rounded-full mx-auto mb-6 object-cover border-4 border-blue-100 shadow">
+
+                <h3 class="text-xl font-bold text-gray-800">
+                    Mr. [Owner Name]
+                </h3>
+
+                <p class="text-sm text-blue-600 font-semibold mt-1">
+                    Proprietor – Tamanna Sales
+                </p>
+
+                <p class="text-gray-600 text-sm mt-4 leading-relaxed">
+                    With years of experience in beverage distribution, ensuring
+                    reliable stock and long-term retailer relationships.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 
 <!-- ================= PRODUCTS ================= -->
 <section id="products" class="py-20 bg-white fade-in">
