@@ -19,8 +19,10 @@
     <!-- LEFT: Logo + Menu -->
     <div class="flex items-center gap-8">
         <!-- Logo -->
-        <a href="/" class="text-xl font-bold text-blue-700 whitespace-nowrap">
-            ⚡ Sukun Electric
+        <a href="/" class="">
+            <img  class="w-28 h-11" src="{{ asset('images/sukun.png') }}" alt=" ⚡ Sukun Electric">
+            
+           
         </a>
 
         <!-- Desktop Menu -->

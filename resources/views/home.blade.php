@@ -112,12 +112,12 @@
         <!-- Product Grid -->
         <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
             @foreach($products as $product)
-                <div class="relative bg-red rounded p-4 border border-transparent
-                            hover:border-blue-600 hover:shadow-2xl hover:-translate-y-1 transition fade-in">
+                <div class="relative  rounded p-4 border border-transparent
+                            hover:border-blue-600 hover:shadow-2xl hover:-translate-y-1 transition fade-in flex flex-col justify-between">
 
                     <!-- Product Image -->
                     <img src="{{ $product->image_url ?? 'https://via.placeholder.com/150' }}"
-                         class="mx-auto bg-red mb-4" alt="{{ $product->name }}">
+                         class="mx-auto w-full  h-32 object-contain  mb-4 " alt="{{ $product->name }}">
 
                     <!-- Product Info -->
                     <h3 class="font-bold text-lg mb-1">{{ $product->name }}</h3>
