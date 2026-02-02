@@ -13,6 +13,6 @@ const observer = new IntersectionObserver(entries => {
             entry.target.classList.remove('show'); // fade out
         }
     });
-}, { threshold: 0.15 });
+});
 
 document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
